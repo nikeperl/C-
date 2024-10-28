@@ -1,0 +1,5 @@
+all:
+	cmake -S. -Bbuild
+	cmake --build build
+	./build/main
+	./build/tests/testing_app
